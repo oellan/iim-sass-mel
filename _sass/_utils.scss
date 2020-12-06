@@ -1,0 +1,41 @@
+$black: #111;
+$white: #eee;
+$back-hover-light: #ccc;
+$back-hover-dark: #333;
+
+:root {
+
+  --black: #{$black};
+  --white: #{$white};
+  --back-hover: #{$back-hover-dark};
+}
+
+@media (prefers-color-scheme: light) {
+
+  :root {
+
+    --black: #{$white};
+    --white: #{$black};
+    --back-hover: #{$back-hover-light};
+  }
+}
+
+html {
+
+  font-size: 16px;
+  font-family: monospace;
+  background-color: var(--black);
+  color: var(--white);
+  line-height: 1;
+}
+
+.flex-divider {
+
+  margin-left: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}

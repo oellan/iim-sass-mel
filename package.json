@@ -1,0 +1,17 @@
+{
+  "name": "iim-sass-mel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp"
+  },
+  "keywords": [],
+  "author": "Arthur TESSE",
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-dart-sass": "^1.0.2"
+  }
+}
